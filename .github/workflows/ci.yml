@@ -11,9 +11,9 @@ jobs:
 
     env:
       AWS_REGION: ap-south-1
-      ECR_REPOSITORY: sonudev-server
-      ECS_CLUSTER: sonu-server-cluster
-      ECS_SERVICE: your-service-name
+      ECR_REPOSITORY: fullauto-test
+      ECS_CLUSTER: cl-test
+      ECS_SERVICE: auto-test-task-service
 
     steps:
       - name: Checkout Code
